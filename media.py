@@ -1,7 +1,7 @@
 class Movie():
     """This Class provides a data structure to store movie related information"""
 
-    VALID_RATINGS = ["G","PG","PG-13","R"]
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, movie_title, movie_year, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
