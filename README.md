@@ -5,11 +5,11 @@ The purpose of this project is to apply an object oriented approach to the back-
 The data in "movie_data.py" is used to instantiate "movie" objects using a custom class, defined in "media.py",
 named "media.Movie()" which is structured as follows:
 
-    media.Movie(title,
-                year,
-                storyline,
-                poster_image_url,
-                trailer_youtube_url)
+    movie_object = media.Movie(title,
+                               year,
+                               storyline,
+                               poster_image_url,
+                               trailer_youtube_url)
 
 The instantiated "movie" objects are stored in a list named "movie_list", which is used by "fresh_tomatoes.py"
 to render the HTML for the web page.

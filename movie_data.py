@@ -1,5 +1,15 @@
 import media
 
+"""
+    Contains the data used to instantiate new media.Movie objects.
+    A media.Movie is instantiated as follows:
+    movie_object = media.Movie(title,
+                               year,
+                               storyline,
+                               poster_image_url,
+                               trailer_youtube_url
+    )
+"""
 toy_story = media.Movie("Toy Story",
                         "1995",
                         "A story of a boy and his toys that come to life.",
@@ -36,4 +46,5 @@ pulp_fiction = media.Movie("Pulp Fiction",
                            "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
                            "https://www.youtube.com/watch?v=s7EdQ4FqbhY")
 
+#assign the movie objects to the movie list that will be used to generate the web site.
 movie_list = [toy_story, avatar, die_hard, logan, true_romance, pulp_fiction]
