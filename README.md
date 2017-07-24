@@ -14,8 +14,7 @@ named "media.Movie()" which is structured as follows:
 The instantiated "movie" objects are stored in a list named "movie_list", which is used by "fresh_tomatoes.py"
 to render the HTML for the web page.
 
-"entertainement_center.py" is responsible for pulling the movie data, which generates the instances of class "media.Movie"
-and then executes "fresh_tomatoes.py", which generates the web site HTML file and launches it in a browser.
+"entertainement_center.py" is responsible for pulling the movie data, which generates the instances of class "media.Movie", populates the movie list and then executes "fresh_tomatoes.py", which generates the web site HTML file using the movie list and launches it in a browser.
 
 * * *
 
