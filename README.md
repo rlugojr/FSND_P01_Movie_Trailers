@@ -1,5 +1,7 @@
 # FSND P01 Movie Trailers Web Site
 
+![alt text](https://github.com/rlugojr/FSND_P01_Movie_Trailers/blob/master/screenshot.jpg "Movie Trailers")
+
 The purpose of this project is to apply an object oriented approach to the back-end design of a movie web site.
 
 The data in "movie_data.py" is used to instantiate "movie" objects using a custom class, defined in "media.py",
