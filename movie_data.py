@@ -1,4 +1,3 @@
-import media
 
 """
 Contains the data used to instantiate new media.Movie objects.
@@ -11,6 +10,9 @@ A media.Movie is instantiated as follows:
         trailer_youtube_url
     )
 """
+
+import media
+
 toy_story = media.Movie(
     "Toy Story",
     "1995",
@@ -41,7 +43,7 @@ logan = media.Movie(
     "His time has come.",
     "https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg",
     "https://www.youtube.com/watch?v=Div0iP65aZo"
-)
+    )
 
 true_romance = media.Movie(
     "True Romance",
@@ -49,7 +51,7 @@ true_romance = media.Movie(
     "Stealing, Cheating, Killing. Who said romance is dead?",
     "https://upload.wikimedia.org/wikipedia/en/d/d6/True_romance.jpg",
     "https://www.youtube.com/watch?v=_wNYNDzKpuQ"
-)
+    )
 
 pulp_fiction = media.Movie(
     "Pulp Fiction",
@@ -57,7 +59,7 @@ pulp_fiction = media.Movie(
     "You won't know the facts until you've seen the fiction.",
     "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",  # NOQA
     "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
-)
+    )
 
 # assign the movie objects to the movie list that will be used
 # to generate the web site.
